@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+
+/* @import"~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss"; */
+*{
+    font-family: 'Poppins', sans-serif;
+    /* position: relative; */
+}
+
+.text-light{
+    text-decoration: none;
+}
+.stylish{
+    font-family: 'Aboreto', cursive;
+}
+.background-image{
+    background-image: url(./assets/images/background2.jpg);
+    width: 100%;
+    position: relative;
+    height: 20em;
+    background-size: cover;
+}
+/* .image-text{
+    position: absolute;
+} */
+.cardback1{
+    /* background-image: url(./assets/images/background.jpg); */
+    border-radius: 50%;
+ }

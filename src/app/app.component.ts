@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import * as RecordRTC from 'recordrtc';
 import { DomSanitizer } from '@angular/platform-browser';
+// required for validation
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
